@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-// import { Button } from "../ui/button";
+import { Button } from "../ui/button";
 
 interface Props {
   id: string;
@@ -35,7 +35,7 @@ function UserCard({ id, name, username, imgUrl, personType }: Props) {
           <p className="text-small-medium text-gray-1">@{username}</p>
         </div>
       </div>
-      {/* 
+
       <Button
         className="user-card_btn"
         onClick={() => {
@@ -47,7 +47,7 @@ function UserCard({ id, name, username, imgUrl, personType }: Props) {
         }}
       >
         View
-      </Button> */}
+      </Button>
     </article>
   );
 }

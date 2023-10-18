@@ -6,8 +6,8 @@ import UserCard from "../cards/UserCard";
 // import { fetchUsers } from "@/lib/actions/user.actions";
 
 async function RightSidebar() {
-  const user = await currentUser();
-  if (!user) return null;
+  // const user = await currentUser();
+  // if (!user) return null;
 
   const similarMinds: any = [];
   // const similarMinds = await fetchUsers({

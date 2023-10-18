@@ -19,7 +19,11 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`${inter.className} bg-dark-1`}>{children}</body>
+        <body
+          className={`${inter.className} bg-dark-1 w-full min-h-screen flex items-center justify-center`}
+        >
+          {children}
+        </body>
       </html>
     </ClerkProvider>
   );
